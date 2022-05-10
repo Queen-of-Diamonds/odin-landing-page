@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin-left: 10px;
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 50px;
+}
+
+.navbar {
+  background-color: #1f2937;
+  height: 100%;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  padding: 10px;
+}
+
+h2 {
+ font-size: 36px;
+ font-weight: bold;
+ color: #1f2937;
+ text-align: center; 
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #E5E7EB; 
+  margin: 10px;
+ }
+
+ h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #E5E7EB; 
+ }
+
+ .column {
+  flex: 30%;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.container {
+   display: flex;
+}
+
+.image {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.box-1 {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box-2 {
+  background-color: #3882f6;
+  font-size: 36px;
+  font-weight: normal;
+  color: #1f2937;
+  padding: 20px;
+  margin: 10px;
+}
+
+.button {
+  background-color: #3882f6;
+  color: #E5E7EB;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin: 20px;
+}
+
+.button-2 {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
